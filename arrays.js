@@ -1,2 +1,2 @@
-function addElementToBeginningOfArray() {}
-function 
+function addElementToBeginningOfArray(array, element) {}
+function destructivelyAddElementToBeginningOfArray() {}
