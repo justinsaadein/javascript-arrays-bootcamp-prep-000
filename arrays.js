@@ -9,7 +9,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 function addElementToEndOfArray(array, element) {
-  var arrayNew[element,  ...array]
+  var arrayNew = [element,  ...array]
   return arrayNew
 }
 
@@ -18,3 +18,6 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array
 }
 
+function accessElementInArray(array, index) {
+  return console.log(array[index])
+}
