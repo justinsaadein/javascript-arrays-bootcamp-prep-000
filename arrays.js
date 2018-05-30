@@ -1,11 +1,11 @@
 function addElementToBeginningOfArray(car, door) {
   var carNew = [...car, door]
-  return arrayNew
+  return carNew
 }
 
-function destructivelyAddElementToBeginningOfArray(array, element) {
-  array.unshift(element)
-  return array
+function destructivelyAddElementToBeginningOfArray(car, door) {
+  car.unshift(door)
+  return car
 }
 
 function addElementToEndOfArray(array, element) {
